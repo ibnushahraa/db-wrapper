@@ -1,0 +1,37 @@
+{
+  "name": "@myname/db-wrapper",
+  "version": "1.0.0",
+  "description": "DB-agnostic database wrapper with error handling, validation, and helper methods",
+  "private": true,
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "wrapper",
+    "mysql",
+    "sqlite",
+    "postgres",
+    "validation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "mysql2": "^3.0.0",
+    "better-sqlite3": "^9.0.0",
+    "pg": "^8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "mysql2": {
+      "optional": true
+    },
+    "better-sqlite3": {
+      "optional": true
+    },
+    "pg": {
+      "optional": true
+    }
+  }
+}
