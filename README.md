@@ -1,5 +1,3 @@
-# @myname/db-wrapper
-
 DB-agnostic database wrapper with error handling, validation, and helper methods.
 
 ## Features
