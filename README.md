@@ -1,5 +1,7 @@
 # db-wrapper
 
+[![npm version](https://img.shields.io/npm/v/@ibnushahraa/db-wrapper.svg?style=flat-square)](https://www.npmjs.com/package/@ibnushahraa/db-wrapper)
+[![npm downloads](https://img.shields.io/npm/dm/@ibnushahraa/db-wrapper.svg?style=flat-square)](https://www.npmjs.com/package/@ibnushahraa/db-wrapper)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![CI](https://github.com/ibnushahraa/db-wrapper/actions/workflows/test.yml/badge.svg)](https://github.com/ibnushahraa/db-wrapper/actions/workflows/test.yml)
 [![coverage](https://img.shields.io/badge/coverage-89%25-brightgreen.svg?style=flat-square)](https://github.com/ibnushahraa/db-wrapper)
@@ -25,7 +27,7 @@ Lightweight, production-ready, and developer-friendly.
 ## 📦 Installation
 
 ```bash
-npm install github:ibnushahraa/db-wrapper
+npm install @ibnushahraa/db-wrapper
 ```
 
 Install your preferred database driver:
@@ -49,7 +51,7 @@ npm install better-sqlite3
 
 ```js
 const mysql = require("mysql2/promise");
-const { wrap } = require("db-wrapper");
+const { wrap } = require("@ibnushahraa/db-wrapper");
 
 // Create connection
 const connection = await mysql.createConnection({
@@ -281,7 +283,7 @@ test/
 ```js
 const express = require("express");
 const mysql = require("mysql2/promise");
-const { wrap } = require("db-wrapper");
+const { wrap } = require("@ibnushahraa/db-wrapper");
 
 const app = express();
 app.use(express.json());
@@ -353,7 +355,7 @@ app.listen(3000, () => console.log("API running on http://localhost:3000"));
 
 ```typescript
 import mysql from "mysql2/promise";
-import { wrap } from "db-wrapper";
+import { wrap } from "@ibnushahraa/db-wrapper";
 
 interface User {
   id: number;
@@ -397,7 +399,7 @@ main();
 
 ```js
 const mysql = require("mysql2/promise");
-const { wrap } = require("db-wrapper");
+const { wrap } = require("@ibnushahraa/db-wrapper");
 
 /**
  * Process reseller sales transaction with balance deduction

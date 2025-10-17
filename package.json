@@ -1,8 +1,8 @@
 {
-  "name": "db-wrapper",
+  "name": "@ibnushahraa/db-wrapper",
   "version": "0.0.1",
   "description": "A database-agnostic wrapper with built-in error handling, validation, and helper methods for MySQL, PostgreSQL, and SQLite. Lightweight, production-ready, and developer-friendly",
-  "private": true,
+  "private": false,
   "main": "src/index.js",
   "module": "src/index.js",
   "types": "index.d.ts",
