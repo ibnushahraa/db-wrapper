@@ -8,6 +8,7 @@
   "files": [
     "src/",
     "index.d.ts",
+    "LICENSE",
     "README.md"
   ],
   "scripts": {
@@ -21,8 +22,16 @@
     "postgres",
     "validation"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Syarwani (https://github.com/ibnushahraa)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibnushahraa/db-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibnushahraa/db-wrapper/issues"
+  },
+  "homepage": "https://github.com/ibnushahraa/db-wrapper#readme",
   "peerDependencies": {
     "mysql2": "^3.0.0",
     "better-sqlite3": "^9.0.0",

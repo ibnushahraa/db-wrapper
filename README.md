@@ -18,7 +18,7 @@ npm install github:ibnushahraa/db-wrapper
 
 ```javascript
 const mysql = require("mysql2/promise");
-const { wrap } = require("@myname/db-wrapper");
+const { wrap } = require("db-wrapper");
 
 const connection = await mysql.createConnection({
   host: "localhost",
@@ -85,4 +85,4 @@ Detailed errors are automatically logged to console.
 
 ## License
 
-ISC
+[MIT](LICENSE) © 2025
