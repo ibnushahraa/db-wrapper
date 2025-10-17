@@ -37,8 +37,8 @@ tmp/
 temp/
 *.tmp
 
-# Package manager
-package-lock.json
+# Package manager (keep package-lock.json for reproducible builds)
+# package-lock.json should be committed for libraries
 yarn.lock
 pnpm-lock.yaml
 
