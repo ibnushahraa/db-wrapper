@@ -1,10 +1,15 @@
 {
-  "name": "@myname/db-wrapper",
+  "name": "db-wrapper",
   "version": "1.0.0",
   "description": "DB-agnostic database wrapper with error handling, validation, and helper methods",
   "private": true,
   "main": "src/index.js",
   "types": "index.d.ts",
+  "files": [
+    "src/",
+    "index.d.ts",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
